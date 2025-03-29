@@ -21,3 +21,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.imgBackground {
+  background-image: url("/static/img/leafs.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

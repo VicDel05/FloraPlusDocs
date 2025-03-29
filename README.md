@@ -1,20 +1,31 @@
-# Website
+# FloraPlusDocs
+Este sitio se desarrolló utilizando [Docusaurus](https://docusaurus.io/), un generador moderno de páginas estaticás.
+## Instalación del proyecto
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
-### Installation
-
+Clonar el repositorio en su computadora utilizando el siguente comando en la terminal
 ```
-$ yarn
+git clone https://github.com/VicDel05/FloraPlusDocs.git
 ```
-
-### Local Development
-
+Una vez clonado, debe asegurarse de instalar las dependencias necesarias para el proyecto ejecuntano el comando de instalación
 ```
-$ yarn start
+npm install
 ```
+Espere que se complete el proceso de instalación, puede demorar unos segundos (o minutos depende de su equipo)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Ejecución del servidor de desarrollo
+Una vez terminado el proceso de instalación corroboráremos que todo este en orden, nos dirigimos a la terminal y ejecutamos el script para levantar el servidor local
+```
+npm start
+```
+Si no surgen errores se debe mostrar estos mensajes en la terminal, así mismo, una pestaña en su navegador se abrirá con la página iniciada
+```
+> flora-plus-docs@0.0.0 start
+> docusaurus start
+
+[INFO] Starting the development server...
+[SUCCESS] Docusaurus website is running at: http://localhost:3000/
+```
+## Desplegar sitio en GitHub Pages
 
 ### Build
 

@@ -12,15 +12,20 @@
 }
 
 .btnlayer {
+  display: flex;
   padding: 4rem 0;
   text-align: center;
-  margin: auto;
+  justify-content: center;
   background-color: #242424;
   width: 100vw;
+  gap: 5rem;
 }
 
 @media screen and (max-width: 996px) {
   .btnlayer {
-    padding: 2rem;
+    padding: 3.5rem;
+    gap: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
   }
 }

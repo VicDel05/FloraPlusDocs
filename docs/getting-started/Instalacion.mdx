@@ -1,0 +1,66 @@
+---
+title: Instalación
+sidebar_position: 0
+---
+# ¿Cómo instalar FloraPlus en mi dispositivo?
+
+## LTS (Long-Term Support)
+El archivo APK con la verión mas reciente se encuentra en el apartado de **Releases** en el [repositorio de GitHub](https://github.com/VicDel05/FloraPlus) del proyecto.
+
+![Example image](../../static/img/releases_repo.png)
+
+Una vez dentro del apartado, aparecerá la última versión disponible con una breve descripción de las novedades y los bugs solucionados. 
+
+![Example image](../../static/img/lts_repo.png)
+
+En la parte inferior de las notas de la release se encuentran los descargables, descargar el archivo con extensión **.apk** (usualmente el archivo se nombrará con la siguiente nomenclatura: **FloraPlus-vX.Y.Z.apk**)
+
+:::danger[Take care]
+
+Hay que aclarar que estas versiones tienen funciones experimentales y pueden presenrar fallos o bugs.
+
+:::
+
+## Regular version
+Para descargar la versión regular de la aplicación dando clic en el botón de descarga
+
+export const Btndownload = ({children, color}) => (
+    <div 
+        style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '1rem'
+        }}>
+        <span
+            style={{
+                backgroundColor: color,
+                borderRadius: '1.5rem',
+                color: '#fff',
+                fontWeight: 'bold',
+                fontSize: '1.2rem',
+                padding: '1rem',
+                width: '12rem',
+                cursor: 'pointer',
+                textAlign: 'center',
+            }}
+            onClick={() => {
+                alert(`You clicked the color ${color} with label ${children}`);
+            }}>
+            {children}
+        </span>
+    </div>
+);
+
+<Btndownload color="#00cdac">Descargar</Btndownload>
+
+Automaticámente se descargará el APK y se guardará en el almacenimiento de su dispositivo, debe dirigirse al gestor de archivos y ejecutar el APK.
+
+![Imagen referencia](../../static/img/docusaurus-social-card.jpg)
+
+## Requisitos del dispositivo
+
+- Versión de Android 11 o superior
+- Espacio mínimo disponible en almacenamiento de 128MB
+- Mínimo 4GB de RAM
+- Conceder permiso del uso de la cámara

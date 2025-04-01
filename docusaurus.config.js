@@ -104,8 +104,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/",
+                label: "Guía rápida",
+                to: "/docs/category/getting-started",
               },
             ],
           },
@@ -140,7 +140,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} FloraPlus. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

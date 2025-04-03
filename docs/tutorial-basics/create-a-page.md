@@ -2,42 +2,154 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Tutorial de Instalación
+## 🌱 Construcción y Armado de componentes
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Este tutorial te guiará paso a paso en **la construcción del sistema de riego automático con Arduino** y **la instalación de la app móvil para su control**.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## 🛠️ 1. Armado del Sistema en Arduino
+### - 🔹 Materiales Necesarios
+  - Arduino Uno R3
 
-## Create your first React Page
+  - Módulo Bluetooth HC-05 o HC-06
 
-Create a file at `src/pages/my-react-page.js`:
+  - Sensor de humedad del suelo (FC-28 o Hygrometer)
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+  - Bomba de agua (5V o 12V)
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
+  - Relé (para controlar la bomba de agua si es de 12V)
+
+  - Fuente de alimentación externa (5 a 9V)
+
+  - Cables y protoboard
+
+
+### - 📌 Diagrama de Conexión
+
+Conéctalos de la siguiente manera:
+
+- Sensor de humedad:
+
+  - VCC → 5V de Arduino
+
+  - GND → GND de Arduino
+
+  - A0 → Pin A0 de Arduino
+
+- Módulo Bluetooth HC-05/HC-06:
+
+  - VCC → 5V de Arduino
+
+  - GND → GND de Arduino
+
+  - TX → Pin 10 de Arduino
+
+  - RX → Pin 11 de Arduino (con divisor de voltaje 1K y 2K)
+
+- Bomba de agua:
+
+  - Conéctala al relé, que a su vez se conecta al Arduino:
+
+  - IN del relé → Pin 7 de Arduino
+
+  - VCC del relé → 5V de Arduino
+
+  - GND del relé → GND de Arduino
+
+  - COM del relé → GND de la bomba
+
+  - NO del relé → VCC de la bomba
+
+#### 💡 Nota: Si la bomba es de 12V, usa una fuente externa.
+
+### Descargar [Software ARDUINO](https://www.arduino.cc/en/software)
+
+## ⏳ Código para Arduino
+
+Sube este código a tu placa:
+
+```jsx title="Codigo_SistemaRiego"
+#include <SoftwareSerial.h>
+
+SoftwareSerial BT(10, 11);  // RX, TX para Bluetooth
+
+int bomba = 8;
+int humedad = 0;
+bool modoManual = false;  // Control manual o automático
+
+void setup() {
+  Serial.begin(9600);
+  BT.begin(9600);
+
+  pinMode(bomba, OUTPUT);
+  digitalWrite(bomba, HIGH);  // La bomba inicia apagada
 }
+
+void loop() {
+  if (BT.available()) {
+    String comando = BT.readString();
+    comando.trim();
+
+    if (comando == "MANUAL") {
+      modoManual = true;
+      Serial.println("Modo manual activado");
+    } else if (comando == "AUTO") {
+      modoManual = false;
+      Serial.println("Modo automático activado");
+    } else if (modoManual) {
+      if (comando == "ON") {
+        digitalWrite(bomba, LOW);
+        Serial.println("Bomba ENCENDIDA (manual)");
+      } else if (comando == "OFF") {
+        digitalWrite(bomba, HIGH);
+        Serial.println("Bomba APAGADA (manual)");
+      }
+    }
+  }
+
+
+  if (!modoManual) {
+    humedad = analogRead(A0);
+
+    if (humedad >= 721 && humedad <= 1024) {
+      digitalWrite(bomba, LOW);
+      Serial.println("Bomba ENCENDIDA (automático)");
+    } else {
+      digitalWrite(bomba, HIGH);
+      Serial.println("Bomba APAGADA (automático)");
+    }
+
+    Serial.println(humedad);
+
+    BT.print(humedad);  
+    BT.print("\r");     
+
+    delay(500);
+  }
+}
+
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+## 📱 2. Instalación y Configuración de la App
 
-## Create your first Markdown Page
+### 🔹 Descarga e Instalación
 
-Create a file at `src/pages/my-markdown-page.md`:
+- Descarga la app de Riego-App desde [Repositorio en GitHub](https://github.com/VicDel05/FloraPlus.git).
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+- Instálala en tu dispositivo Android.
 
-This is a Markdown page
-```
+- Habilita Bluetooth en tu teléfono.
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+### 🔗 Conectar la App con Arduino
+
+- Abre la app.
+
+- Registrate en la APP, una vez creada la cuenta ingresa.
+
+- Presiona "Buscar dispositivos Bluetooth" y selecciona HC-05 o HC-06.
+
+- Conéctalo ingresando el PIN 1234 o 0000.
+
+- Una vez conectado, usa los botones en la app para activar o desactivar la bomba.
+
+#### ✅ ¡Listo! Ahora puedes regar tus plantas de forma automática o manual. 🌿💧

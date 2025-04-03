@@ -2,46 +2,43 @@
 sidebar_position: 5
 ---
 
-# Tutorial Intro
+# Riego-App: Sistema de Riego Automático con Arduino y App
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Introducción 
+Descubre cómo **automatizar el riego de tus plantas** con Arduino y una aplicación móvil.
 
-## Getting Started
+## 🎯 Objetivo del Proyecto
+El objetivo de Riego-App es desarrollar un sistema de riego automático y manual basado en Arduino y controlado mediante una aplicación móvil. Este sistema optimiza el uso del agua al medir la humedad del suelo y activar la bomba solo cuando sea necesario, permitiendo también el control remoto del riego a través de Bluetooth.
 
-Get started by **creating a new site**.
+Esto ayuda a mejorar la eficiencia del riego en jardines, huertos o cultivos, reduciendo el desperdicio de agua y facilitando su gestión de manera inteligente. 🌱💧
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Componentes Necesarios
 
-### What you'll need
+- Arduino Uno R3.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Módulo Bluetooth HC-05 o HC-06.
 
-## Generate a new site
+- Sensor de humedad del suelo (FC-28 o Hygrometer).
 
-Generate a new Docusaurus site using the **classic template**.
+- Bomba de agua (5V o 12V).
 
-The classic template will automatically be added to your project after you run the command:
+- Relé para la bomba de agua.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- Fuente de alimentación externa (5 a 9V).
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- Cables y protoboard.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+![Example image](../static/img/LOGO-APPRIEGO.jpg)
 
-## Start your site
 
-Run the development server:
+## 🌿 Más información sobre el riego de plantas  
+Si quieres conocer más sobre las mejores técnicas de riego, visita [Guía de Riego Eficiente](https://www.gob.mx/siap/articulos/en-la-agricultura-los-sistemas-de-riego-son-utilizados-para-un-aprovechamiento-optimo-del-agua?idiom=es).
 
-```bash
-cd my-website
-npm run start
-```
+## ❓ Preguntas Frecuentes (FAQ)  
+**¿Cómo funciona el sensor de humedad?**  
+El sensor mide la cantidad de agua en el suelo y envía datos a Arduino para activar el riego.  
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+**¿Puedo ajustar los niveles de humedad?**  
+Sí, desde la app puedes configurar el umbral de riego automático.  
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+📌 **Código fuente:** [Repositorio en GitHub](https://github.com/tu-repo/riego-app)

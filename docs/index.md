@@ -18,3 +18,4 @@ Desarrollar una experiencia de usuario que permita organizar, diseñar y planifi
 - Brindar ejemplos donde sea posible tener una vista previa realista del resultado.
 - Facilitar el trabajo de diseño con el uso de herramientas y tecnologías emergentes.
 - Accesibilidad con dispositivos móviles.
+

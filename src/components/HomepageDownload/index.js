@@ -9,7 +9,7 @@ export default function HomepageDownload() {
         <div className={clsx(styles.btnlayer)}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/getting-started/Instalacion"
+            to="/docs/getting-started/Instalacion#regular-version"
           >
             Descarga la App
           </Link>

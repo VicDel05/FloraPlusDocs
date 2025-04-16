@@ -9,8 +9,8 @@ El desarrollo del **Sistema de Riego Automático con Arduino y App** no habría 
 Queremos expresar nuestro profundo agradecimiento a:  
 
 - [José Enrique Martinez Ramirez](https://github.com/Enrique2125122) 
-- [Nombre](https://github.com/) 
-- [Nombre](https://github.com/) 
+- [Victor Alfonso Delgado Bautista](https://github.com/VicDel05) 
+- [Eder Osvaldo Robles Hernández](https://github.com/Osvaldo-1) 
 - [Nombre](https://github.com/) 
 - [Nombre](https://github.com/) 
 

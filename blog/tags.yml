@@ -1,3 +1,13 @@
+team:
+  label: Team
+  permalink: /team
+  description: Team tag description
+
+floraplus:
+  label: FloraPlus
+  permalink: /floraplus
+  description: FloraPlus tag description
+
 facebook:
   label: Facebook
   permalink: /facebook

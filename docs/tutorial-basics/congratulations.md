@@ -14,29 +14,29 @@ Queremos expresar nuestro profundo agradecimiento a:
 - [Nombre](https://github.com/) 
 - [Nombre](https://github.com/) 
 
-## 🤖 Comunidad de Arduino  
+## Comunidad de Arduino  
 A todos los desarrolladores, creadores de contenido y entusiastas de **Arduino** que han compartido su conocimiento y experiencias, facilitando el aprendizaje y la innovación en proyectos de automatización.  
 
-## 📡 Especialistas en IoT y Electrónica  
+## Especialistas en IoT y Electrónica  
 Gracias a quienes han contribuido con su experiencia en **Internet de las Cosas (IoT)** y sistemas embebidos, ayudando a optimizar la comunicación entre la aplicación móvil y el hardware mediante Bluetooth.  
 
-## 💧 Investigación sobre Riego Inteligente  
+## Investigación sobre Riego Inteligente  
 El proyecto se inspiró en investigaciones sobre **uso eficiente del agua** en la agricultura y jardinería, promoviendo prácticas sostenibles que benefician tanto a pequeños agricultores como a hogares urbanos.  
 
 ---
 
-### **📌 Mejoras y personalización**  
+### ** Mejoras y personalización**  
 🔹 **Enfocado en el sistema de riego**  
 🔹 **Agradecimiento a la comunidad, investigadores y expertos**  
 🔹 **Incluye un reconocimiento al desarrollador con su perfil de GitHub**  
 
-🚀 ¡Déjame saber si quieres agregar algo más!
+ ¡Déjame saber si quieres agregar algo más!
 
 ---
 
-## 👤 Desarrollador  
+##  Desarrollador  
 
-🛠 **Creado por:** José Enrique Martínez Ramírez  
-📌 **GitHub:** [@Enrique2125122](https://github.com/Enrique2125122)  
+ **Creado por:** José Enrique Martínez Ramírez  
+ **GitHub:** [@Enrique2125122](https://github.com/Enrique2125122)  
 
 ![Example image](../../static/img/LOGO-APPRIEGO.jpg)

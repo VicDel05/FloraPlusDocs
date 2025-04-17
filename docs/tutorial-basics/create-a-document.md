@@ -2,6 +2,9 @@
 sidebar_position: 2
 ---
 
+import login from '../../static/img/LOGIN-RIEGO.jpg'
+import inter from '../../static/img/INTERFAZ-RIEGO.jpg'
+
 # Tutorial de APP-RIEGO
 ## Tutorial de Uso y Configuración de la App de Riego 
 
@@ -17,7 +20,7 @@ Antes de empezar, asegúrate de que cumples con los siguientes requisitos:
 - 3️⃣ Presiona "Iniciar sesión" para acceder a la interfaz principal.
 
 
-![Example image](../../static/img/LOGIN-RIEGO.jpg)
+<img src={login} style={{width: 300, display: 'block', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '1rem'}}/>
 
 ### 3. Conexión con el Sistema de Riego 
 - 1️⃣ Asegúrate de que el módulo Bluetooth del sistema de riego esté encendido.
@@ -30,7 +33,7 @@ Antes de empezar, asegúrate de que cumples con los siguientes requisitos:
 - 📌 Si el porcentaje de humedad es bajo, la app puede recomendar activar el riego.
 - 📌 Se actualiza en tiempo real conforme la humedad cambia.
 
-![Example image](../../static/img/INTERFAZ-RIEGO.jpg)
+<img src={inter} style={{width: 300, display: 'block', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '1rem'}}/>
 
 ### 5. Modos de Funcionamiento 
 La app tiene dos modos principales para el riego:

@@ -2,10 +2,34 @@
 title: Instalación
 sidebar_position: 0
 ---
+import repo from '../../static/img/IMG_8151.jpg'
+import version from '../../static/img/IMG_8152.jpg'
+import details from '../../static/img/IMG_8153.jpg'
+import downloads from '../../static/img/IMG_8154.jpg'
+
 # ¿Cómo instalar FloraPlus en mi dispositivo?
 
 ## LTS (Long-Term Support)
 El archivo APK con la verión mas reciente se encuentra en el apartado de **Releases** en el [repositorio de GitHub](https://github.com/VicDel05/FloraPlus) del proyecto.
+
+### En dispositivos móviles
+<img src={repo} style={{width: 300, display: 'block', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '1rem'}}/>
+
+Al ingresar al repositorio en la aplicación móvil, debe dirigirse a "releases".
+
+<img src={version} style={{width: 300, display: 'block', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '1rem'}}/>
+
+Aqui se enlistarán las versiones existentes de la aplicación, la primera en la lista corresponde a la última versión disponible, sí desea instalar dicha versión seleccionela.
+
+<img src={details} style={{width: 300, display: 'block', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '1rem'}}/>
+
+Dentro de la release se detallarán las características y novedades de la verión en cuestión.
+
+<img src={downloads} style={{width: 300, display: 'block', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '1rem'}}/>
+
+En la parte inferior se encontrarán los descargables, en el apartado de assets estará el archivo APK que debe descargar para instalar la aplicación en su dispositivo móvil.
+
+### Desde computadoras
 
 ![Example image](../../static/img/releases_repo.png)
 
@@ -17,7 +41,7 @@ En la parte inferior de las notas de la release se encuentran los descargables, 
 
 :::danger[Take care]
 
-Hay que aclarar que estas versiones tienen funciones experimentales y pueden presenrar fallos o bugs.
+Hay que aclarar que estas versiones tienen funciones experimentales y pueden presentar fallos o bugs.
 
 :::
 
@@ -45,7 +69,7 @@ export const Btndownload = ({children, color}) => (
                 textAlign: 'center',
             }}
             onClick={() => {
-                alert(`You clicked the color ${color} with label ${children}`);
+                window.location.href = 'https://github.com/VicDel05/FloraPlus/releases/download/v1.0.0/FloraPlus-v1.0.0.apk'
             }}>
             {children}
         </span>

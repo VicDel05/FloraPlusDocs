@@ -1,23 +1,26 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+victor:
+  name: Victor Delgado
+  title: Full Stack Engineer
+  url: https://github.com/VicDel05
+  image_url: https://github.com/VicDel05.png
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    github: VicDel05
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+eder:
+  name: Eder Robles
+  title: Full Stack Engineer
+  url: https://github.com/Osvaldo-1
+  image_url: https://github.com/Osvaldo-1.png
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: Osvaldo-1
+
+jose:
+  name: Jose Martinez
+  title: Electrical Engineer
+  url: https://github.com/Enrique2125122
+  image_url: https://github.com/Enrique2125122.png
+  page: true
+  socials:
+    github: Enrique2125122

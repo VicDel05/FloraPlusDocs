@@ -30,7 +30,38 @@ Esto ayuda a mejorar la eficiencia del riego en jardines, huertos o cultivos, re
 
 ![Example image](../static/img/LOGO-APPRIEGO.jpg)
 
+## Descargar Aplicación 
+Para descargar la versión 1.0v de la aplicación dando clic en el botón de descarga
 
+export const Btndownload = ({children, color}) => (
+    <div 
+        style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '1rem'
+        }}>
+        <span
+            style={{
+                backgroundColor: color,
+                borderRadius: '1.5rem',
+                color: '#fff',
+                fontWeight: 'bold',
+                fontSize: '1.2rem',
+                padding: '1rem',
+                width: '12rem',
+                cursor: 'pointer',
+                textAlign: 'center',
+            }}
+            onClick={() => {
+                window.location.href = 'https://github.com/VicDel05/FloraPlusDocs/releases/download/v1.0.0/GardenPlus.apk'
+            }}>
+            {children}
+        </span>
+    </div>
+);
+
+<Btndownload color="#00cdac">Descargar</Btndownload>
 ## 🌿 Más información sobre el riego de plantas  
 Si quieres conocer más sobre las mejores técnicas de riego, visita [Guía de Riego Eficiente](https://www.gob.mx/siap/articulos/en-la-agricultura-los-sistemas-de-riego-son-utilizados-para-un-aprovechamiento-optimo-del-agua?idiom=es).
 
@@ -41,4 +72,4 @@ El sensor mide la cantidad de agua en el suelo y envía datos a Arduino para act
 **¿Puedo ajustar los niveles de humedad?**  
 Sí, desde la app puedes configurar el umbral de riego automático.  
 
-📌 **Código fuente:** [Repositorio en GitHub](https://github.com/tu-repo/riego-app)
+📌 **Código fuente:** [Repositorio en GitHub](https://github.com/VicDel05/FloraPlus.git)

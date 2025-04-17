@@ -3,11 +3,11 @@ sidebar_position: 2
 ---
 
 # Tutorial de APP-RIEGO
-## Tutorial de Uso y Configuración de la App de Riego 🌱📱
+## Tutorial de Uso y Configuración de la App de Riego 
 
 ### 1. Instalación y Requisitos Previos
 Antes de empezar, asegúrate de que cumples con los siguientes requisitos:
-- ✅ Tener la aplicación instalada en tu dispositivo móvil. [Descarga](https://github.com/tu-repo/riego-app)
+- ✅ Tener la aplicación instalada en tu dispositivo móvil. [Descarga](https://github.com/VicDel05/FloraPlus.git)
 - ✅ Contar con un módulo Bluetooth en el sistema de riego.
 - ✅ Tener activado el Bluetooth en tu celular.
 
@@ -19,20 +19,20 @@ Antes de empezar, asegúrate de que cumples con los siguientes requisitos:
 
 ![Example image](../../static/img/LOGIN-RIEGO.jpg)
 
-### 3. Conexión con el Sistema de Riego 🌿🔗
+### 3. Conexión con el Sistema de Riego 
 - 1️⃣ Asegúrate de que el módulo Bluetooth del sistema de riego esté encendido.
 - 2️⃣ En la aplicación, presiona el botón de "Conectar Bluetooth".
 - 3️⃣ Aparecerá una lista de dispositivos disponibles, selecciona el módulo de riego.
 - 4️⃣ Espera la confirmación de conexión.
 
-### 4. Monitoreo de la Humedad 📊💧
+### 4. Monitoreo de la Humedad 
 - 📌 En la pantalla principal de la app, verás un indicador con el porcentaje de humedad actual del suelo.
 - 📌 Si el porcentaje de humedad es bajo, la app puede recomendar activar el riego.
 - 📌 Se actualiza en tiempo real conforme la humedad cambia.
 
 ![Example image](../../static/img/INTERFAZ-RIEGO.jpg)
 
-### 5. Modos de Funcionamiento 🚀
+### 5. Modos de Funcionamiento 
 La app tiene dos modos principales para el riego:
 
 #### 🔹 Modo Automático

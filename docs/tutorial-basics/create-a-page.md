@@ -3,12 +3,12 @@ sidebar_position: 1
 ---
 
 # Tutorial de Instalación
-## 🌱 Construcción y Armado de componentes
+## Construcción y Armado de componentes
 
 Este tutorial te guiará paso a paso en **la construcción del sistema de riego automático con Arduino** y **la instalación de la app móvil para su control**.
 
-## 🛠️ 1. Armado del Sistema en Arduino
-### - 🔹 Materiales Necesarios
+## 1. Armado del Sistema en Arduino
+### -  Materiales Necesarios
   - Arduino Uno R3
 
   - Módulo Bluetooth HC-05 o HC-06
@@ -24,7 +24,7 @@ Este tutorial te guiará paso a paso en **la construcción del sistema de riego 
   - Cables y protoboard
 
 
-### - 📌 Diagrama de Conexión
+### -  Diagrama de Conexión
 
 Conéctalos de la siguiente manera:
 
@@ -60,11 +60,11 @@ Conéctalos de la siguiente manera:
 
   - NO del relé → VCC de la bomba
 
-#### 💡 Nota: Si la bomba es de 12V, usa una fuente externa.
+####  Nota: Si la bomba es de 12V, usa una fuente externa.
 
 ### Descargar [Software ARDUINO](https://www.arduino.cc/en/software)
 
-## ⏳ Código para Arduino
+##  Código para Arduino
 
 Sube este código a tu placa:
 
@@ -130,9 +130,9 @@ void loop() {
 
 ```
 
-## 📱 2. Instalación y Configuración de la App
+##  2. Instalación y Configuración de la App
 
-### 🔹 Descarga e Instalación
+###  Descarga e Instalación
 
 - Descarga la app de Riego-App desde [Repositorio en GitHub](https://github.com/VicDel05/FloraPlus.git).
 
@@ -140,7 +140,7 @@ void loop() {
 
 - Habilita Bluetooth en tu teléfono.
 
-### 🔗 Conectar la App con Arduino
+###  Conectar la App con Arduino
 
 - Abre la app.
 
@@ -152,4 +152,4 @@ void loop() {
 
 - Una vez conectado, usa los botones en la app para activar o desactivar la bomba.
 
-#### ✅ ¡Listo! Ahora puedes regar tus plantas de forma automática o manual. 🌿💧
+#### ✅ ¡Listo! Ahora puedes regar tus plantas de forma automática o manual. 

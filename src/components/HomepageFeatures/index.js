@@ -2,10 +2,14 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+import lighting from '../../../static/img/lighting.png'
+import ux from '../../../static/img/ux.png'
+import unity from '../../../static/img/unity.png'
+
 const FeatureList = [
   {
     title: 'Intuitiva y rápida',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: lighting,
     description: (
       <>
         FloraPlus emplea una interfaz limpia y minimalista, permite al usuario concentrarse en su entorno con realidad aumentada.
@@ -14,7 +18,7 @@ const FeatureList = [
   },
   {
     title: 'Experiencia inmersiva',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: ux,
     description: (
       <>
         Ver a través de un plano virtual brinda la posibilidad de liberar la creatividad para darle vida a sus espacios.
@@ -22,22 +26,21 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Desarrollado con Unity y C#',
+    image: unity,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Aprovechamos las características que ofrece Unity en conjunto con C# para brindar una experiencia fluida y adaptable a los dispositivos móviles.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} className={styles.featureSvg} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

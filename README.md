@@ -1,5 +1,8 @@
 # FloraPlusDocs
 Este sitio se desarrolló utilizando [Docusaurus](https://docusaurus.io/), un generador moderno de páginas estaticás.
+
+## Documentación
+[Link del sitio web](https://vicdel05.github.io/FloraPlusDocs/) sobre el proyecto de FloraPlus.
 ## Instalación del proyecto
 
 Clonar el repositorio en su computadora utilizando el siguente comando en la terminal

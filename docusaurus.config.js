@@ -19,7 +19,7 @@ const config = {
   url: "https://VicDel05.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/FloraPlusDocs",
+  baseUrl: "/FloraPlusDocs/",
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
@@ -28,15 +28,15 @@ const config = {
   organizationName: "VicDel05", // Usually your GitHub org/user name.
   projectName: "FloraPlusDocs", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "es",
+    locales: ["es"],
   },
 
   presets: [

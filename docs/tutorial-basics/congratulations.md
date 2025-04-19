@@ -11,8 +11,8 @@ Queremos expresar nuestro profundo agradecimiento a:
 - [José Enrique Martinez Ramirez](https://github.com/Enrique2125122) 
 - [Victor Alfonso Delgado Bautista](https://github.com/VicDel05) 
 - [Eder Osvaldo Robles Hernández](https://github.com/Osvaldo-1) 
-- [Nombre](https://github.com/) 
-- [Nombre](https://github.com/) 
+- [Naomi Margarita Mondragon Osorio](https://github.com/) 
+- [Bryan Antonio Murillo Lozano](https://github.com/) 
 
 ## Comunidad de Arduino  
 A todos los desarrolladores, creadores de contenido y entusiastas de **Arduino** que han compartido su conocimiento y experiencias, facilitando el aprendizaje y la innovación en proyectos de automatización.  
@@ -25,7 +25,7 @@ El proyecto se inspiró en investigaciones sobre **uso eficiente del agua** en l
 
 ---
 
-### ** Mejoras y personalización**  
+### Mejoras y personalización  
 🔹 **Enfocado en el sistema de riego**  
 🔹 **Agradecimiento a la comunidad, investigadores y expertos**  
 🔹 **Incluye un reconocimiento al desarrollador con su perfil de GitHub**  

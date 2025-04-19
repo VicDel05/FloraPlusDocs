@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflora_plus_docs=self.webpackChunkflora_plus_docs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Acerca de FloraPlus","permalink":"/FloraPlusDocs/blog/welcome-floraplus-v1","unlisted":false,"date":"2025-04-13T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflora_plus_docs=self.webpackChunkflora_plus_docs||[]).push([[4959],{3856:s=>{s.exports=JSON.parse('{"tags":[{"label":"Team","permalink":"/FloraPlusDocs/blog/tags/team","description":"Team tag description","count":1},{"label":"FloraPlus","permalink":"/FloraPlusDocs/blog/tags/floraplus","description":"FloraPlus tag description","count":1}]}')}}]);

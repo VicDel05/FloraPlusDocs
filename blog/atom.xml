@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://VicDel05.github.io/FloraPlusDocs/blog</id>
+    <title>FloraPlus Blog</title>
+    <updated>2025-04-13T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://VicDel05.github.io/FloraPlusDocs/blog"/>
+    <subtitle>FloraPlus Blog</subtitle>
+    <icon>https://VicDel05.github.io/FloraPlusDocs/img/logo.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Acerca de FloraPlus]]></title>
+        <id>https://VicDel05.github.io/FloraPlusDocs/blog/welcome-floraplus-v1</id>
+        <link href="https://VicDel05.github.io/FloraPlusDocs/blog/welcome-floraplus-v1"/>
+        <updated>2025-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Información acerca del equipo y de nuestro trabajo]]></summary>
+        <content type="html"><![CDATA[<p>Le damos la bienvenida a este sitio de documentación para el Proyecto Integrador de la materia Tecnologías Emergentes.</p>
+<p>Somos un grupo de estudiantes de la <a href="https://www.uanl.mx/" target="_blank" rel="noopener noreferrer">Universidad Autónoma de Nuevo León</a> en la <a href="https://www.fime.uanl.mx/" target="_blank" rel="noopener noreferrer">Facultad de Ingeniería Mecánica y Eléctrica</a></p>
+<p>Como parte del proyecto final de la materia se nos solicito desarrollar una aplicación que aproveche las características de las tecnologías emergentes en especial de la realidad aumentada o la realidad virtual, en este caso nos decidimos a crear una aplicación que use AR para mostrar modelos de plantas 3D para decoración de interiores.</p>]]></content>
+        <author>
+            <name>Victor Delgado</name>
+            <uri>https://github.com/VicDel05</uri>
+        </author>
+        <author>
+            <name>Eder Robles</name>
+            <uri>https://github.com/Osvaldo-1</uri>
+        </author>
+        <author>
+            <name>Jose Martinez</name>
+            <uri>https://github.com/Enrique2125122</uri>
+        </author>
+        <category label="Team" term="Team"/>
+        <category label="FloraPlus" term="FloraPlus"/>
+    </entry>
+</feed>
